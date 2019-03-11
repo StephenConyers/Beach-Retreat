@@ -1,0 +1,46 @@
+﻿$primary: #C5E3E1;
+$secondary: #CCE3CF;
+$tertiary: #E2E6EA;
+$body-color: #074c76;
+$line-height-base: 2;
+
+$theme-colors: 
+(
+    "secondary-dark": #282E34
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "partials/animate.scss";
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
+
+body {
+    background-color: $tertiary;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.parallax {
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &.img-one { background-image: url('img/BS-1.jpg'); }
+    &.img-two { background-image: url('img/BS-2.jpg'); }
+    &.img-three { background-image: url('img/BS-3.jpg'); }
+}
+
+section {
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.navbar {
+    height: 94px;
+    background-color: $primary;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    img {
+        height: 80px;
+    }
+}
