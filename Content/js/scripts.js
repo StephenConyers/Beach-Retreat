@@ -15334,8 +15334,7 @@ return jQuery;
 });
 
 $(document).ready(function () {
-
-    $(document).on('click', 'a[href^="#"]:not(.carousel-control)', function () {
+    $(document).on('click', 'a[href^="#"]:not([class^="carousel-control"])', function () {
         if (!/#/.test(this.href)) return;
         var id = $(this).attr('href');
         if (id === '#') return;

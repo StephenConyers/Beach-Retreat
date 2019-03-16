@@ -9727,11 +9727,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover; }
   .parallax.img-one {
-    background-image: url("img/BS-1.jpg"); }
+    background-image: url("img/BS-1.jpg");
+    min-height: 900px; }
   .parallax.img-two {
     background-image: url("img/BS-2.jpg"); }
   .parallax.img-three {
     background-image: url("img/BS-3.jpg"); }
+  .parallax.img-four {
+    background-image: url("img/BS-4.jpg"); }
 
 section {
   padding: 50px 0;

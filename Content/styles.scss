@@ -25,9 +25,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
-    &.img-one { background-image: url('img/BS-1.jpg'); }
+    &.img-one { background-image: url('img/BS-1.jpg'); min-height: 900px; }
     &.img-two { background-image: url('img/BS-2.jpg'); }
     &.img-three { background-image: url('img/BS-3.jpg'); }
+    &.img-four { background-image: url('img/BS-4.jpg'); }
 }
 
 section {
