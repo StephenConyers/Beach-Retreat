@@ -36,6 +36,10 @@ section {
     overflow: hidden;
 }
 
+section:nth-child(2n+1) {
+    background-color: $primary;
+}
+
 .navbar {
     height: 94px;
     background-color: $white;
@@ -43,5 +47,11 @@ section {
 
     img {
         height: 180px;
+    }
+}
+
+.card {
+    .card-img-top {
+        height: 200px;
     }
 }
