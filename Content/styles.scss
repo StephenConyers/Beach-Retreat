@@ -14,7 +14,7 @@ $theme-colors:
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
 
 body {
-    background-color: $tertiary;
+    background-color: $primary;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -38,6 +38,17 @@ section {
 
 section:nth-child(2n+1) {
     background-color: $primary;
+}
+
+.carousel {
+    .carousel-item {
+        background-color: $tertiary;
+        color: #fff;
+        border-radius: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
 }
 
 .navbar {

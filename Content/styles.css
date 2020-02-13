@@ -9717,7 +9717,7 @@ a.text-secondary-dark:hover, a.text-secondary-dark:focus {
     transition: none !important; } }
 
 body {
-  background-color: #E2E6EA;
+  background-color: #C5E3E1;
   font-family: 'Source Sans Pro', sans-serif; }
 
 .parallax {
@@ -9742,6 +9742,14 @@ section {
 
 section:nth-child(2n+1) {
   background-color: #C5E3E1; }
+
+.carousel .carousel-item {
+  background-color: #E2E6EA;
+  color: #fff;
+  border-radius: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
 
 .navbar {
   height: 94px;
