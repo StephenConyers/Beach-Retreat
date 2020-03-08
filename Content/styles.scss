@@ -42,27 +42,56 @@ section:nth-child(2n+1) {
 
 .carousel {
     .carousel-item {
+        min-height: 500px;
         background-color: $tertiary;
         color: #fff;
         border-radius: 0;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
+
+        &.jumbotron {
+            margin-bottom: 0;
+        }
     }
 }
 
 .navbar {
     height: 94px;
-    background-color: $white;
+    background-color: $primary;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-    img {
-        height: 180px;
+    .navbar-brand {
+        width: 50px;
+
+        img {
+            @media (min-width: 576px) {
+                width: auto;
+            }
+        }
+    }
+
+    .navbar-collapse {
+        color: $white;
+        background-color: $primary;
+    }
+
+    a {
+        color: $white;
     }
 }
 
 .card {
     .card-img-top {
         height: 200px;
+    }
+}
+
+a {
+    &.card {
+        &:hover {
+            text-decoration: none;
+            background-color: $gray-100;
+        }
     }
 }

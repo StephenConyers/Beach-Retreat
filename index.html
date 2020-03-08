@@ -7,9 +7,8 @@
     <script src="https://kit.fontawesome.com/19c0b0504b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="home"></div>
     <!-- Navbar Start -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light" fh-navbar>
+    <nav class="navbar sticky-top navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="index.html"><img src="Content/img/logo.png" class="img-fluid"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,9 +16,6 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="about-us.html">About us</a>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="availability.html">Availability and Pricing</a>
                     </li>
@@ -31,9 +27,6 @@
                     </li>
                     <li>
                         <a class="nav-link" href="eat-drink.html">Eat and Drink</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="getting-around.html">Getting Around</a>
                     </li>
                     <li>
                         <a class="nav-link" href="location.html">Our Location</a>
@@ -48,20 +41,125 @@
     <!-- Navbar End -->
     <!-- Content Start -->
 
-    <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="false" fh-carousel>
+    <div class="row no-gutters">
+        <div class="col-12 col-sm-8">
+            <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="false">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                    <li data-target="#carousel" data-slide-to="3"></li>
+                    <li data-target="#carousel" data-slide-to="4"></li>
+                    <li data-target="#carousel" data-slide-to="5"></li>
+                    <li data-target="#carousel" data-slide-to="6"></li>
+                    <li data-target="#carousel" data-slide-to="7"></li>
+                    <li data-target="#carousel" data-slide-to="8"></li>
+                </ol>
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner v-align-cols-sm" role="listbox">
-            <div class="jumbotron item carousel-item active" style="background-image: url('Content/img/BS-1.jpg');"></div>
-            <div class="jumbotron item carousel-item" style="background-image: url('Content/img/BS-2.jpg');"></div>
-            <div class="jumbotron item carousel-item" style="background-image: url('Content/img/BS-3.jpg');"></div>
-            <div class="jumbotron item carousel-item" style="background-image: url('Content/img/BS-4.jpg');"></div>
-            <div class="jumbotron item carousel-item" style="background-image: url('Content/img/BS-5.jpg');"></div>
-            <div class="jumbotron item carousel-item" style="background-image: url('Content/img/BS-6.jpg');"></div>
-            <div class="jumbotron item carousel-item" style="background-image: url('Content/img/BS-7.jpg');"></div>
-            <div class="jumbotron item carousel-item" style="background-image: url('Content/img/BS-8.jpg');"></div>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner v-align-cols-sm" role="listbox">
+                    <div class="jumbotron item carousel-item active" style="background-image: url('Content/img/BS-1.jpg');"></div>
+                    <div class="jumbotron item carousel-item" style="background-image: url('Content/img/BS-2.jpg');"></div>
+                    <div class="jumbotron item carousel-item" style="background-image: url('Content/img/BS-3.jpg');"></div>
+                    <div class="jumbotron item carousel-item" style="background-image: url('Content/img/BS-4.jpg');"></div>
+                    <div class="jumbotron item carousel-item" style="background-image: url('Content/img/BS-5.jpg');"></div>
+                    <div class="jumbotron item carousel-item" style="background-image: url('Content/img/BS-6.jpg');"></div>
+                    <div class="jumbotron item carousel-item" style="background-image: url('Content/img/BS-7.jpg');"></div>
+                    <div class="jumbotron item carousel-item" style="background-image: url('Content/img/BS-8.jpg');"></div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <div class="col-12 col-sm-4 bg-white p-4">
+            <h2 class="mb-3">Key features</h2>
+            <div class="row">
+                <div class="col-12 col-sm-4 text-center">
+                    <h1><i class="fas fa-dog"></i></h1>
+                    <p>Dog</p>
+                </div>
+                <div class="col-12 col-sm-4 text-center">
+                    <h1><i class="fas fa-dog"></i></h1>
+                    <p>Dog</p>
+                </div>
+                <div class="col-12 col-sm-4 text-center">
+                    <h1><i class="fas fa-dog"></i></h1>
+                    <p>Dog</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-4 text-center">
+                    <h1><i class="fas fa-dog"></i></h1>
+                    <p>Dog</p>
+                </div>
+                <div class="col-12 col-sm-4 text-center">
+                    <h1><i class="fas fa-dog"></i></h1>
+                    <p>Dog</p>
+                </div>
+                <div class="col-12 col-sm-4 text-center">
+                    <h1><i class="fas fa-dog"></i></h1>
+                    <p>Dog</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-4 text-center">
+                    <h1><i class="fas fa-dog"></i></h1>
+                    <p>Dog</p>
+                </div>
+                <div class="col-12 col-sm-4 text-center">
+                    <h1><i class="fas fa-dog"></i></h1>
+                    <p>Dog</p>
+                </div>
+                <div class="col-12 col-sm-4 text-center">
+                    <h1><i class="fas fa-dog"></i></h1>
+                    <p>Dog</p>
+                </div>
+            </div>
+            <button class="btn btn-primary btn-block">Book now</button>
         </div>
     </div>
+
+    <section id="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-10 offset-md-1 wow fadeInUp">
+                    <h2>About Beach Retreat Broadstairs</h2>
+                    <p>
+                        Beach Retreat is ideally situated in a quiet area right in the heart of Broadstairs town centre, yet only two minutes’ walk from its many local bars, cafes and
+                        restaurants and the sandy beach at Viking Bay. It also benefits from an allocated parking space which is a rarity for this location.
+                        The apartment is decorated to a high standard and offers an open plan kitchen/living space, master bedroom with en suite shower room, second bedroom
+                        with full size single bunk beds, a family bathroom and private courtyard.
+                    </p>
+                    <p>
+                        Comfortably sleeping 4, but with the addition of a sofa bed in the living room can accommodate 6, Beach Retreat is ideal for your family holiday.
+                        <ul>
+                            <li>Fully double glazed with gas central heating.</li>
+                            <li>Integrated kitchen appliances including dishwasher and washer dryer.</li>
+                            <li>Wi-Fi internet access.</li>
+                            <li>Smart TV with Netflix.</li>
+                            <li>High chair and travel cot are available for our smaller guests.</li>
+                            <li>Outside storage box containing skim and boogie boards, buckets and spades, balls, skittles and other beach games.</li>
+                            <li>Indoor board games, cards, puzzles, pencils and colouring books.</li>
+                        </ul>
+                    </p>
+                    <h2>Important Information</h2>
+                    <p>
+                        There are a few steps leading down to the apartment which may not be suitable for a guest with limited mobility.
+                        Strictly no smoking is allowed in the property or communal areas and unfortunately pets are not permitted.
+                        This property is most suited to Families and Couples
+                        Arrival & Departure days are usually Saturday to Saturday during peak season - other days may be suitable so please ask.
+                        Minimum of 7 night stays during peak seasons.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Content End -->
     <!-- Footer Start -->

@@ -9744,19 +9744,34 @@ section:nth-child(2n+1) {
   background-color: #C5E3E1; }
 
 .carousel .carousel-item {
+  min-height: 500px;
   background-color: #E2E6EA;
   color: #fff;
   border-radius: 0;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
+  .carousel .carousel-item.jumbotron {
+    margin-bottom: 0; }
 
 .navbar {
   height: 94px;
-  background-color: #fff;
+  background-color: #C5E3E1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-  .navbar img {
-    height: 180px; }
+  .navbar .navbar-brand {
+    width: 50px; }
+    @media (min-width: 576px) {
+      .navbar .navbar-brand img {
+        width: auto; } }
+  .navbar .navbar-collapse {
+    color: #fff;
+    background-color: #C5E3E1; }
+  .navbar a {
+    color: #fff; }
 
 .card .card-img-top {
   height: 200px; }
+
+a.card:hover {
+  text-decoration: none;
+  background-color: #f8f9fa; }
