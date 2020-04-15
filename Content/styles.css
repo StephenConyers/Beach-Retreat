@@ -9756,18 +9756,16 @@ section:nth-child(2n+1) {
 
 .navbar {
   height: 94px;
-  background-color: #C5E3E1;
+  background-color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-  .navbar .navbar-brand {
-    width: 50px; }
-    @media (min-width: 576px) {
-      .navbar .navbar-brand img {
-        width: auto; } }
+  @media (min-width: 576px) {
+    .navbar .navbar-brand img {
+      width: auto; } }
   .navbar .navbar-collapse {
-    color: #fff;
-    background-color: #C5E3E1; }
+    color: #074c76;
+    background-color: #fff; }
   .navbar a {
-    color: #fff; }
+    color: #074c76; }
 
 .card .card-img-top {
   height: 200px; }
