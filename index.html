@@ -8,19 +8,24 @@
 </head>
 <body>
     <!-- Navbar Start -->
-    <nav class="navbar sticky-top navbar-expand-lg">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="Content/img/logo.png" class="img-fluid"></a>
+            <a class="navbar-brand" href="index.html">
+                <img src="Content/img/logo.png" class="img-fluid" />
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="availability.html">Availability and Pricing</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="things-to-do.html">Things to do</a>
+                        <a class="nav-link" href="availability.html">Pricing and Availability</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="things-to-do.html">Attractions</a>
                     </li>
                     <li>
                         <a class="nav-link" href="events.html">Events</a>
@@ -41,7 +46,15 @@
     <!-- Navbar End -->
     <!-- Content Start -->
 
-    <div class="row no-gutters">
+    <div class="row no-gutters gallery">
+        <div class="col-12 col-sm-2">
+            <div class="row no-gutters">
+                <div class="col-12 carousel-item-select-container"><div class="row no-gutters"><div class="col-12 carousel-item-select" style="background-image: url('Content/img/BS-1.jpg');" data-target="#carousel" data-slide-to="0"></div></div></div>
+                <div class="col-12 carousel-item-select-container"><div class="row no-gutters"><div class="col-12 carousel-item-select" style="background-image: url('Content/img/BS-2.jpg');" data-target="#carousel" data-slide-to="1"></div></div></div>
+                <div class="col-12 carousel-item-select-container"><div class="row no-gutters"><div class="col-12 carousel-item-select" style="background-image: url('Content/img/BS-3.jpg');" data-target="#carousel" data-slide-to="2"></div></div></div>
+                <div class="col-12 carousel-item-select-container"><div class="row no-gutters"><div class="col-12 carousel-item-select" style="background-image: url('Content/img/BS-4.jpg');" data-target="#carousel" data-slide-to="3"></div></div></div>
+            </div>
+        </div>
         <div class="col-12 col-sm-8">
             <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="false">
                 <ol class="carousel-indicators">
@@ -67,63 +80,51 @@
                     <div class="jumbotron item carousel-item" style="background-image: url('Content/img/BS-7.jpg');"></div>
                     <div class="jumbotron item carousel-item" style="background-image: url('Content/img/BS-8.jpg');"></div>
                 </div>
-                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+                <div class="arrow-attention">
+                    <h2><a href="#about-us"><i class="fas fa-chevron-down wow tada infinite" data-wow-duration="1.5s"></i></a></h2>
+                </div>
             </div>
         </div>
-        <div class="col-12 col-sm-4 bg-white p-4">
-            <h2 class="mb-3">Key features</h2>
-            <div class="row">
-                <div class="col-12 col-sm-4 text-center">
-                    <h1><i class="fas fa-dog"></i></h1>
-                    <p>Dog</p>
-                </div>
-                <div class="col-12 col-sm-4 text-center">
-                    <h1><i class="fas fa-dog"></i></h1>
-                    <p>Dog</p>
-                </div>
-                <div class="col-12 col-sm-4 text-center">
-                    <h1><i class="fas fa-dog"></i></h1>
-                    <p>Dog</p>
-                </div>
+        <div class="col-12 col-sm-2">
+            <div class="row no-gutters">
+                <div class="col-12 carousel-item-select-container"><div class="row no-gutters"><div class="col-12 carousel-item-select" style="background-image: url('Content/img/BS-5.jpg');" data-target="#carousel" data-slide-to="4"></div></div></div>
+                <div class="col-12 carousel-item-select-container"><div class="row no-gutters"><div class="col-12 carousel-item-select" style="background-image: url('Content/img/BS-6.jpg');" data-target="#carousel" data-slide-to="5"></div></div></div>
+                <div class="col-12 carousel-item-select-container"><div class="row no-gutters"><div class="col-12 carousel-item-select" style="background-image: url('Content/img/BS-7.jpg');" data-target="#carousel" data-slide-to="6"></div></div></div>
+                <div class="col-12 carousel-item-select-container"><div class="row no-gutters"><div class="col-12 carousel-item-select" style="background-image: url('Content/img/BS-8.jpg');" data-target="#carousel" data-slide-to="7"></div></div></div>
             </div>
-            <div class="row">
-                <div class="col-12 col-sm-4 text-center">
-                    <h1><i class="fas fa-dog"></i></h1>
-                    <p>Dog</p>
-                </div>
-                <div class="col-12 col-sm-4 text-center">
-                    <h1><i class="fas fa-dog"></i></h1>
-                    <p>Dog</p>
-                </div>
-                <div class="col-12 col-sm-4 text-center">
-                    <h1><i class="fas fa-dog"></i></h1>
-                    <p>Dog</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-sm-4 text-center">
-                    <h1><i class="fas fa-dog"></i></h1>
-                    <p>Dog</p>
-                </div>
-                <div class="col-12 col-sm-4 text-center">
-                    <h1><i class="fas fa-dog"></i></h1>
-                    <p>Dog</p>
-                </div>
-                <div class="col-12 col-sm-4 text-center">
-                    <h1><i class="fas fa-dog"></i></h1>
-                    <p>Dog</p>
-                </div>
-            </div>
-            <button class="btn btn-primary btn-block">Book now</button>
         </div>
     </div>
+
+    <section class="py-3 bg-secondary">
+        <div class="container">
+            <div class="row font-weight-bold">
+                <div class="col-12 col-sm-2 text-center">
+                    <h2 class="mb-0"><b>1</b></h2>
+                    <p class="mb-0 text-uppercase">Sleeps</p>
+                </div>
+                <div class="col-12 col-sm-2 text-center">
+                    <h2 class="mb-0"><b>1</b></h2>
+                    <p class="mb-0 text-uppercase">Sleeps</p>
+                </div>
+                <div class="col-12 col-sm-2 text-center">
+                    <h2 class="mb-0"><b>1</b></h2>
+                    <p class="mb-0 text-uppercase">Sleeps</p>
+                </div>
+                <div class="col-12 col-sm-2 text-center">
+                    <h2 class="mb-0"><b>1</b></h2>
+                    <p class="mb-0 text-uppercase">Sleeps</p>
+                </div>
+                <div class="col-12 col-sm-2 text-center">
+                    <h2 class="mb-0"><b>1</b></h2>
+                    <p class="mb-0 text-uppercase">Sleeps</p>
+                </div>
+                <div class="col-12 col-sm-2 text-center">
+                    <h2 class="mb-0"><b>1</b></h2>
+                    <p class="mb-0 text-uppercase">Sleeps</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="about-us">
         <div class="container">
@@ -163,7 +164,41 @@
 
     <!-- Content End -->
     <!-- Footer Start -->
-    <footer></footer>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-sm-4">
+                            <h4>Booking Websites</h4>
+                            <ul class="list-unstyled">
+                                <li></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <h4>Contact</h4>
+                            <ul class="list-unstyled">
+                                <li></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <h4>Socials</h4>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href="https://www.instagram.com/beach_retreat_broadstairs/?hl=en" target="_blank"><h2><i class="fab fa-instagram"></i></h2></a></li>
+                                <li class="list-inline-item"><a href="https://www.facebook.com/BeachRetreatBroadstairs/" target="_blank"><h2><i class="fab fa-facebook-square"></i></h2></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <p class="mb-0">
+                        &copy;
+                        <script>document.write(new Date().getFullYear())</script> Stephen Conyers
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- Footer End -->
     <script src="Content/js/scripts.js"></script>
 </body>
