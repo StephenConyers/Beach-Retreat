@@ -9738,10 +9738,8 @@ body {
 
 section {
   padding: 50px 0;
-  overflow: hidden; }
-
-section:nth-child(2n+1) {
-  background-color: #C4B6A4; }
+  overflow: hidden;
+  background-color: #fff; }
 
 .carousel {
   border-left: 4px solid #fff;
@@ -9810,6 +9808,59 @@ a.card:hover {
 
 .gallery {
   border-bottom: 4px solid #fff; }
+
+.panel-row .panel-item-container {
+  border: 2px #fff solid;
+  overflow: hidden; }
+  .panel-row .panel-item-container .panel-item {
+    cursor: pointer;
+    min-height: 400px;
+    border-radius: 0;
+    background-color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: 0.3s;
+    overflow: hidden; }
+    .panel-row .panel-item-container .panel-item:hover {
+      transform: scale(1.1); }
+      .panel-row .panel-item-container .panel-item:hover .item-overlay {
+        opacity: 1; }
+    .panel-row .panel-item-container .panel-item.item-sm {
+      min-height: 200px; }
+    .panel-row .panel-item-container .panel-item.item-lg {
+      min-height: 600px; }
+    .panel-row .panel-item-container .panel-item .item-overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: rgba(118, 201, 214, 0.8); }
+    .panel-row .panel-item-container .panel-item .overlay-text {
+      color: white;
+      font-size: 16px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+      line-height: 16px; }
+
+.panel-row .panel-item-container:last-child {
+  border-bottom: none; }
+
+.panel-row:first-child .panel-item-container {
+  border-left: none; }
+
+.panel-row:last-child .panel-item-container {
+  border-right: none; }
 
 footer {
   padding: 16px 0;
