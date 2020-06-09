@@ -9720,6 +9720,9 @@ body {
   background-color: #C4B6A4;
   font-family: 'Source Sans Pro', sans-serif; }
 
+.flex-even {
+  flex: 1; }
+
 .parallax {
   min-height: 400px;
   background-attachment: fixed;
@@ -9798,6 +9801,9 @@ section {
     background-color: #fff; }
   .navbar a {
     color: #074c76; }
+  .navbar .nav-item:hover .nav-link, .navbar .nav-item.active .nav-link {
+    color: #76C9D6;
+    font-weight: bold; }
 
 .card .card-img-top {
   height: 200px; }
@@ -9871,3 +9877,5 @@ footer {
     transition: 0.2s ease-in-out; }
     footer a:hover {
       color: #fff; }
+  footer h2 {
+    margin: 0; }

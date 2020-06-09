@@ -18,6 +18,10 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.flex-even {
+    flex: 1;
+}
+
 .parallax {
     min-height: 400px;
     background-attachment: fixed;
@@ -120,6 +124,15 @@ section {
 
     a {
         color: $body-color;
+    }
+
+    .nav-item {
+        &:hover, &.active {
+            .nav-link {
+                color: $secondary;
+                font-weight: bold;
+            }
+        }
     }
 }
 
@@ -232,5 +245,9 @@ footer {
         &:hover {
             color: $white;
         }
+    }
+
+    h2 {
+        margin: 0;
     }
 }
