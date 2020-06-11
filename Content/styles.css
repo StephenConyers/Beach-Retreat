@@ -9848,7 +9848,7 @@ a.card:hover {
       transition: .5s ease;
       background-color: rgba(118, 201, 214, 0.8); }
     .panel-row .panel-item-container .panel-item .overlay-text {
-      color: white;
+      color: #C4B6A4;
       font-size: 16px;
       position: absolute;
       top: 50%;
