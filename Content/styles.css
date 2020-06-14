@@ -9748,7 +9748,7 @@ section {
   border-left: 4px solid #fff;
   border-right: 4px solid #fff; }
   .carousel .carousel-item {
-    min-height: 600px;
+    min-height: 902px;
     background-color: #E2E6EA;
     color: #fff;
     border-radius: 0;
@@ -9764,10 +9764,10 @@ section {
     bottom: 28px;
     text-align: center; }
     .carousel .arrow-attention a {
-      color: #fff;
+      color: #074c76;
       transition: 0.3s; }
       .carousel .arrow-attention a:hover {
-        color: #074c76; }
+        color: #76C9D6; }
 
 .carousel-item-select-container {
   border-bottom: 4px #fff solid; }
@@ -9789,6 +9789,13 @@ section {
 .carousel-item-select-container:last-child {
   border-bottom: none; }
 
+.carousel-indicators li {
+  opacity: 1;
+  background-color: #074c76; }
+
+.carousel-indicators .active {
+  background-color: #76C9D6; }
+
 .navbar {
   min-height: 94px;
   background-color: #fff;
@@ -9801,9 +9808,11 @@ section {
     background-color: #fff; }
   .navbar a {
     color: #074c76; }
-  .navbar .nav-item:hover .nav-link, .navbar .nav-item.active .nav-link {
-    color: #76C9D6;
+  .navbar .nav-item {
     font-weight: bold; }
+    .navbar .nav-item:hover .nav-link, .navbar .nav-item.active .nav-link {
+      color: #76C9D6;
+      font-weight: bold; }
 
 .card .card-img-top {
   height: 200px; }

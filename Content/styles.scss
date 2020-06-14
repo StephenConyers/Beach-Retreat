@@ -46,7 +46,7 @@ section {
     border-right: 4px solid $white;
 
     .carousel-item {
-        min-height: 600px;
+        min-height: 902px;
         background-color: $tertiary;
         color: $white;
         border-radius: 0;
@@ -67,14 +67,13 @@ section {
         text-align: center;
 
         a {
-            color: $white;
+            color: $body-color;
             transition: 0.3s;
 
             &:hover {
-                color: $body-color;
+                color: $secondary;
             }
         }
-
     }
 }
 
@@ -104,6 +103,17 @@ section {
     border-bottom: none;
 }
 
+.carousel-indicators {
+    li {
+        opacity: 1;
+        background-color: $body-color;
+    }
+
+    .active {
+        background-color: $secondary;
+    }
+}
+
 .navbar {
     min-height: 94px;
     background-color: $white;
@@ -127,6 +137,8 @@ section {
     }
 
     .nav-item {
+        font-weight: bold;
+
         &:hover, &.active {
             .nav-link {
                 color: $secondary;
