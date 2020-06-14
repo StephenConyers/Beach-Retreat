@@ -9717,7 +9717,7 @@ a.text-secondary-dark:hover, a.text-secondary-dark:focus {
     transition: none !important; } }
 
 body {
-  background-color: #C4B6A4;
+  background-color: #fff;
   font-family: 'Source Sans Pro', sans-serif; }
 
 .flex-even {
@@ -9757,17 +9757,6 @@ section {
     background-position: center center; }
     .carousel .carousel-item.jumbotron {
       margin-bottom: 0; }
-  .carousel .arrow-attention {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 28px;
-    text-align: center; }
-    .carousel .arrow-attention a {
-      color: #074c76;
-      transition: 0.3s; }
-      .carousel .arrow-attention a:hover {
-        color: #76C9D6; }
 
 .carousel-item-select-container {
   border-bottom: 4px #fff solid; }
@@ -9788,13 +9777,6 @@ section {
 
 .carousel-item-select-container:last-child {
   border-bottom: none; }
-
-.carousel-indicators li {
-  opacity: 1;
-  background-color: #074c76; }
-
-.carousel-indicators .active {
-  background-color: #76C9D6; }
 
 .navbar {
   min-height: 94px;

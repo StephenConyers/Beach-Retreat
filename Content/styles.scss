@@ -14,7 +14,7 @@ $theme-colors:
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
 
 body {
-    background-color: $primary;
+    background-color: $white;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -58,23 +58,6 @@ section {
             margin-bottom: 0;
         }
     }
-
-    .arrow-attention {
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: 28px;
-        text-align: center;
-
-        a {
-            color: $body-color;
-            transition: 0.3s;
-
-            &:hover {
-                color: $secondary;
-            }
-        }
-    }
 }
 
 .carousel-item-select-container {
@@ -101,17 +84,6 @@ section {
 
 .carousel-item-select-container:last-child {
     border-bottom: none;
-}
-
-.carousel-indicators {
-    li {
-        opacity: 1;
-        background-color: $body-color;
-    }
-
-    .active {
-        background-color: $secondary;
-    }
 }
 
 .navbar {
