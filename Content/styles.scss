@@ -1,5 +1,5 @@
-﻿$primary: #C4B6A4;
-$secondary: #76C9D6;
+﻿$primary: #C2B3A1;
+$secondary: #7AC9D6;
 $tertiary: #E2E6EA;
 $body-color: #074c76;
 $line-height-base: 2;
@@ -14,7 +14,7 @@ $theme-colors:
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
 
 body {
-    background-color: $white;
+    background-color: $body-color;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -186,7 +186,7 @@ a {
             }
 
             .overlay-text {
-                color: $primary;
+                color: $body-color;
                 font-size: 16px;
                 position: absolute;
                 top: 50%;
@@ -221,6 +221,15 @@ footer {
     padding: 16px 0;
     color: $body-color;
     background-color: $secondary;
+
+    li {
+        &.list-booking {
+            img {
+                max-height: 36px;
+                border-radius: 6px;
+            }
+        }
+    }
 
     a {
         color: $body-color;
