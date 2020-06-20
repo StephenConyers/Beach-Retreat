@@ -3,6 +3,8 @@ $secondary: #7AC9D6;
 $tertiary: #E2E6EA;
 $body-color: #074c76;
 $line-height-base: 2;
+$headings-color: $secondary;
+$headings-font-weight: 600;
 
 $theme-colors: 
 (
@@ -20,6 +22,10 @@ body {
 
 .flex-even {
     flex: 1;
+}
+
+i {
+    color: $body-color;
 }
 
 .icons {
@@ -128,6 +134,13 @@ section {
                 font-weight: bold;
             }
         }
+
+        &.active {
+            .nav-link {
+                color: $primary;
+                font-weight: bold;
+            }
+        }
     }
 }
 
@@ -209,6 +222,10 @@ a {
                 transform: translate(-50%, -50%);
                 text-align: center;
                 line-height: 16px;
+
+                h2 {
+                    color: $white;
+                }
             }
         }
     }

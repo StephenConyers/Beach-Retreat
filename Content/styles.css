@@ -301,8 +301,9 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-weight: 500;
-  line-height: 1.2; }
+  font-weight: 600;
+  line-height: 1.2;
+  color: #7AC9D6; }
 
 h1, .h1 {
   font-size: 2.5rem; }
@@ -4428,6 +4429,7 @@ a.close.disabled {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0;
   font-size: 1rem;
+  color: #7AC9D6;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
   border-top-left-radius: calc(0.3rem - 1px);
@@ -9723,6 +9725,9 @@ body {
 .flex-even {
   flex: 1; }
 
+i {
+  color: #074c76; }
+
 .icons {
   line-height: 1; }
 
@@ -9803,6 +9808,9 @@ section {
     .navbar .nav-item:hover .nav-link, .navbar .nav-item.active .nav-link {
       color: #7AC9D6;
       font-weight: bold; }
+    .navbar .nav-item.active .nav-link {
+      color: #C2B3A1;
+      font-weight: bold; }
 
 .card .card-img-top {
   height: 200px; }
@@ -9858,6 +9866,8 @@ a.card:hover {
       transform: translate(-50%, -50%);
       text-align: center;
       line-height: 16px; }
+      .panel-row .panel-item-container .panel-item .overlay-text h2 {
+        color: #fff; }
 
 .panel-row .panel-item-container:last-child {
   border-bottom: none; }
