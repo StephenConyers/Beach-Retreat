@@ -9723,6 +9723,9 @@ body {
 .flex-even {
   flex: 1; }
 
+.icons {
+  line-height: 1; }
+
 .parallax {
   min-height: 400px;
   background-attachment: fixed;
@@ -9782,9 +9785,8 @@ section {
   min-height: 94px;
   background-color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-  @media (min-width: 576px) {
-    .navbar .navbar-brand img {
-      width: auto; } }
+  .navbar .navbar-brand img {
+    max-width: 240px; }
   .navbar .navbar-collapse {
     color: #074c76;
     background-color: #fff; }

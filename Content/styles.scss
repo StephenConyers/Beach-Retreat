@@ -22,6 +22,10 @@ body {
     flex: 1;
 }
 
+.icons {
+    line-height: 1;
+}
+
 .parallax {
     min-height: 400px;
     background-attachment: fixed;
@@ -93,9 +97,7 @@ section {
 
     .navbar-brand {
         img {
-            @media (min-width: 576px) {
-                width: auto;
-            }
+            max-width: 240px;
         }
     }
 
