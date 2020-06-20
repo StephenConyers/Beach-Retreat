@@ -25,6 +25,17 @@ $(document).ready(function () {
     $(window).on('resize load', resizeCarousel);
     resizeCarousel();
 
+    var resizeSpace = function () {
+        var wHeight = $(window).height();
+        var navHeight = $('[fh-navbar]').outerHeight(true);
+        var footerHeight = $('[fh-footer]').outerHeight(true);
+        var item = $('[fh-space]');
+        $('.space-inner', '[fh-space]').height(wHeight - navHeight - footerHeight - (parseInt(item.css('paddingTop'), 10) + parseInt(item.css('paddingBottom'), 10)));
+    };
+
+    $(window).on('resize load', resizeSpace);
+    resizeSpace();
+
     var resizeMap = function () {
         var wHeight = $(window).height();
         var navHeight = $('[fh-navbar]').outerHeight(true);
