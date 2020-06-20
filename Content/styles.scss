@@ -11,11 +11,11 @@ $theme-colors:
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "partials/animate.scss";
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
 body {
     background-color: $body-color;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .flex-even {

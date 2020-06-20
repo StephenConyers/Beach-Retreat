@@ -4,7 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9718,7 +9718,7 @@ a.text-secondary-dark:hover, a.text-secondary-dark:focus {
 
 body {
   background-color: #074c76;
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-family: 'Open Sans', sans-serif; }
 
 .flex-even {
   flex: 1; }
