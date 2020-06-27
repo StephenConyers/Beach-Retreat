@@ -33,11 +33,19 @@ i {
 }
 
 .booking-icon {
-    max-width: 150px;
+    max-width: 50px;
     border-radius: 16px;
 
     &:hover {
         border: 4px solid $secondary;
+    }
+
+    @include media-breakpoint-up(sm) {
+        max-width: 100px;
+    }
+
+    @include media-breakpoint-up(md) {
+        max-width: 150px;
     }
 }
 
@@ -219,6 +227,10 @@ section {
             transition: 0.3s;
             overflow: hidden;
 
+            @include media-breakpoint-up(md) {
+                min-height: 400px;
+            }
+
             &:hover {
                 //filter: blur(2px);
                 transform: scale(1.1);
@@ -229,11 +241,19 @@ section {
             }
 
             &.item-sm {
-                min-height: 200px;
+                min-height: 400px;
+
+                @include media-breakpoint-up(md) {
+                    min-height: 200px;
+                }
             }
 
             &.item-lg {
-                min-height: 600px;
+                min-height: 400px;
+
+                @include media-breakpoint-up(md) {
+                    min-height: 600px;
+                }
             }
 
             .item-overlay {
@@ -312,5 +332,13 @@ footer {
 
     h2 {
         margin: 0;
+    }
+}
+
+.iframe-google-map {
+    height: 300px;
+
+    @include media-breakpoint-up(md) {
+        min-height: 600px;
     }
 }
