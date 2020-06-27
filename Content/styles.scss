@@ -335,6 +335,13 @@ footer {
     h2 {
         margin: 0;
     }
+
+    small {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 25px;
+    }
 }
 
 .iframe-google-map {

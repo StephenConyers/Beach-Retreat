@@ -9936,6 +9936,11 @@ footer {
       color: #fff; }
   footer h2 {
     margin: 0; }
+  footer small {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25px; }
 
 .iframe-google-map {
   height: 300px; }
