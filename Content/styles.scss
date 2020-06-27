@@ -35,6 +35,7 @@ i {
 .booking-icon {
     max-width: 50px;
     border-radius: 16px;
+    box-shadow: 0px 24px 38px rgba(0, 0, 0, 0.18);
 
     &:hover {
         border: 4px solid $secondary;
@@ -317,6 +318,7 @@ footer {
             img {
                 max-height: 36px;
                 border-radius: 6px;
+                box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.14);
             }
         }
     }
