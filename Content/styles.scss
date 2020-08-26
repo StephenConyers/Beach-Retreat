@@ -26,6 +26,19 @@ body {
         color: $white;
         font-weight: bold;
     }
+
+    &.btn-book {
+        @include media-breakpoint-up(xl) {
+            padding: 0.5rem 1rem;
+            font-size: 1.25rem;
+            line-height: 1.5;
+        }
+
+        @include media-breakpoint-down(md) {
+            display: block;
+            width: 100%;
+        }
+    }
 }
 
 .flex-even {
@@ -41,7 +54,7 @@ i {
 }
 
 .booking-icon {
-    max-width: 50px;
+    max-width: 50px; 
     border-radius: 16px;
     box-shadow: 0px 24px 38px rgba(0, 0, 0, 0.18);
 
@@ -145,6 +158,14 @@ section {
     .nav-item {
         font-weight: bold;
 
+        .nav-link {
+            font-size: 100%;
+
+            @include media-breakpoint-between(lg,lg) {
+                font-size: 85%;
+            }
+        }
+
         &:hover, &.active {
             .nav-link {
                 color: $secondary;
@@ -157,6 +178,10 @@ section {
                 color: $primary;
                 font-weight: bold;
             }
+        }
+
+        @include media-breakpoint-down(md) {
+            text-align: center;
         }
     }
 }

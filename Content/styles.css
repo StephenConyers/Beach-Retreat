@@ -9727,6 +9727,17 @@ body {
   color: #fff;
   font-weight: bold; }
 
+@media (min-width: 1200px) {
+  .btn.btn-book {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5; } }
+
+@media (max-width: 991.98px) {
+  .btn.btn-book {
+    display: block;
+    width: 100%; } }
+
 .flex-even {
   flex: 1; }
 
@@ -9817,12 +9828,20 @@ section {
     color: #074c76; }
   .navbar .nav-item {
     font-weight: bold; }
+    .navbar .nav-item .nav-link {
+      font-size: 100%; }
+      @media (min-width: 992px) and (max-width: 1199.98px) {
+        .navbar .nav-item .nav-link {
+          font-size: 85%; } }
     .navbar .nav-item:hover .nav-link, .navbar .nav-item.active .nav-link {
       color: #7AC9D6;
       font-weight: bold; }
     .navbar .nav-item.active .nav-link {
       color: #C2B3A1;
       font-weight: bold; }
+    @media (max-width: 991.98px) {
+      .navbar .nav-item {
+        text-align: center; } }
 
 .card.card-event {
   border: 4px solid #7AC9D6;
